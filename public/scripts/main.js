@@ -24,7 +24,8 @@ function signIn() {
 
 // Signs-out of Friendly Chat.
 function signOut() {
-  // TODO 2: Sign out of Firebase.
+  // Sign out of Firebase.
+  firebase.auth().signOut();
 }
 
 // Initiate firebase auth.
